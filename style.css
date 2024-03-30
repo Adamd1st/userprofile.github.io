@@ -1,0 +1,65 @@
+/* Reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global Styles */
+body {background-color: moccasin; background-image: url(/Screenshot\ 2024-03-23\ 232509.png); background-size: cover;
+}
+
+/*Main*/
+main {
+    max-width: 800px;
+    margin: 5px auto;
+    padding: 20px;
+    background-color: slategray;
+    border-radius: 20px;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigation */
+nav {
+    background: #333; padding-left: 15px; padding-right: 15px;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0; display: flex; align-items: center; justify-content: space-between;
+}
+nav ul li {
+    list-style: none; display: inline-block;
+}
+nav ul li a {
+    color: white; font-size: 20px; font-weight: bold; margin-right: 10px;
+} 
+button {
+    margin-left: 10px; border-radius: 10px; padding: 10px;
+}
+button a {
+    font-weight: bold;
+}
+
+h1 {text-align: center;
+}
+
+img {display: block; margin: 0 auto;}
+
+
+
+
+aside {
+    flex: 0.3;
+    padding: 20px;
+    background-color: #ddd;
+}
+
+footer {
+    font-weight: bold; color: #fff; background-color: #333; text-align: center;
+}
